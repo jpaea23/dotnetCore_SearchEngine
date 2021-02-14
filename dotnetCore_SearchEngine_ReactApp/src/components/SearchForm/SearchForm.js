@@ -13,7 +13,7 @@ function SearchForm(props){
         
     return (
         <div className="d-flex justify-content-center">
-            <div id={styles.test} className="border w-50 p-4 rounded">
+            <div id={styles.formWrapper} className="border w-50 p-4 rounded">
                 <form onSubmit={props.SubmitSearch}>
                     <div className="form-group">
                         <label className="text-white h5 font-weight-bold">Search Engine</label>

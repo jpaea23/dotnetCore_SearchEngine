@@ -25,7 +25,6 @@ function Search(props){
         setIsLoading(true);
         Axios.post('api/search',searchData)
             .then(resp => {
-                console.log(resp)
                 setIsLoading(false);
                 setResult(resp.data['result'])
             })
